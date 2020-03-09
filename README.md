@@ -1,1 +1,1 @@
-# Patel_Deepkumar_MediaQuery
+#Simple Media Query Project
