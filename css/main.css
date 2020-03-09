@@ -23,6 +23,19 @@
   flex: 1 0 200px;
 }
 
+.box2{
+  background-color: purple;
+}
+
+.box3{
+  background-color: grey;
+}
+
+.box4{
+  background-color: brown;
+}
+
+
 @media screen and (max-width: 641px)
 {
   .box3, .box4{
