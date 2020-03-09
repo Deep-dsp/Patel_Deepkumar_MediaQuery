@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.hidden
+{
+  display: none;
+}
+
+.mainContainer
+{
+  margin: 0 auto;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1140px;
+}
+
+.box
+{
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  width: 100px;
+
+  flex: 1 0 200px;
+}
+
+.box2{
+  background-color: purple;
+}
+
+.box3{
+  background-color: grey;
+}
+
+.box4{
+  background-color: brown;
+}
+
+
+@media screen and (max-width: 641px)
+{
+  .box3, .box4{
+    display: none;
+  }
+
+  .box1{
+    background-color: pink;
+  }
+
+  .box2{
+    background-color: red;
+  }
+}
